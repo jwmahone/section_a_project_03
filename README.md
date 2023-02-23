@@ -64,23 +64,6 @@ What to submit
 • Your report should be in Markdown format---you can simply replace this README file with your report.
 • You should include your data file so we can run your program! If your data file is large, you may zip it.
 
-## Requirements
-
-### Main Function
-Create a Binary Search Tree, an AVL Tree, and a Splay Tree all of type integer. Using a loop, insert the integers from 1 to 100 in order. In a second loop, find each integer in order and record the depths to a file in the data folder.
-
-* Check for understanding: print the return values and depths you get from the BST find method if you search for 0, 101, and 102 (you should get 1, 100, and 100, respectively).
-
-Create a Binary Search Tree, an AVL Tree, and a Splay Tree all of type integer. Using a loop, insert the integers from 1 to 100 in a random order. In a second loop, find each integer in order and record the depths to a file in the data folder.
-
-* You can get a random sequence either from random.org or by shuffling a vector of numbers (C++ has a shuffle function).
-
-Create a Binary Search Tree, an AVL Tree, and a Splay Tree all of your custom data type. Using a loop, insert all 1000+ objects into the trees in the order they appear in your vector. In a second loop, find each custom object in the same order and record the depths to a file in the data folder.
-
-Create another Splay Tree of your custom data type. Using a loop, insert all 1000+ objects in the order they appear in your vector. In a second loop, find each object five times in a row before searching for the next object and record the depths to a file in the data folder.
-
-* You should have 5000+ depths stored in the file for this tree.
-
 ## Preparing plots
 
 Do not use C++ to produce plots, you can use whatever spreadsheet application or graphical programming language you prefer. You can use whatever type of plot is most readable to you (_e.g._, scatter plot, histogram, _etc._).
