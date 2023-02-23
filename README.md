@@ -57,7 +57,8 @@ You must write a report about your project.
 * Answer all the questions above in your report.
 * Compare and contrast the results of your experiments making reference to your plots and explain the differences based on what you know about the structure and behavior of the trees.
 * Determine and justify the complexity of searching each of the different the trees—BST, AVL, and splay—based on the results. Use Big-O notation where appropriate.
-What to submit
+
+## What to submit
 * You must submit your source files (including the three modified header files), your data file(s), the trace file, your output files, and your PDF report.
 * The minimum set of files needed to compile and run all of your experiments and generate all your output files should be supplied.
 • If you are using CLion or cmake, please include your `CMakeLists.txt`.
@@ -75,16 +76,15 @@ Do not use C++ to produce plots, you can use whatever spreadsheet application or
 
 ## Code
 
-  * The following files are supplied for you: `AvlTree.h`, `BinarySearchTree.h`, `SplayTree.h` and `splayTests2.cpp`. You are to use these in your project and include the modified versions of these files with your submission.
+  * The following files are supplied for you: `AvlTree.h`, `BinarySearchTree.h`, `SplayTree.h` and `splayTests2.cpp`. You are to use these in your project and include the modified versions of these files with your submission. There are also some demos `randomNumber.cpp`, `shuffleVector.cpp`, `timing.cpp` and `writeToFile.cpp`. These provide working examples of generating a random number, shuffling a vector, timing an operation, and writing to a file, respectively.
   * Follow the course style guide.
   * Use C++ 17 Standard.
   * We will compile using CLion, or if that fails we may try compiling from the command line. However, it is in your best interest to stick to the basics and make sure your code complies and runs without any fuss.
   
 **Note: Any code that was not authored by yourself or the instructor must be cited in your report. This includes the use of concepts not taught in lecture.**
 
-
 ## Extra Credit
-Write a separate program (_e.g._, `timing.cpp`) that calculates eight values, when working with your custom objects:
+Write a separate program (_e.g._, like `timing.cpp`) that calculates eight values, when working with your custom objects:
 
   1. average time to add one object to a BST
   2. average time to add one object to an AVL tree,
