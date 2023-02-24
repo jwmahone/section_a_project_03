@@ -55,7 +55,7 @@ You must write a report about your project.
 
 * Answer all the questions above in your report.
 * Compare and contrast the results of your experiments making reference to your plots and explain the differences based on what you know about the structure and behavior of the trees.
-* Determine and justify the complexity of searching each of the different the trees—BST, AVL, and splay—based on the results. Use Big-O notation where appropriate.
+* Determine and justify the complexity of searching each of the different the trees---BST, AVL, and splay---based on the results. Use Big-O notation where appropriate.
 
 You can overwrite `README.md` with your report, or, if you prefer to leave `README.md`, you can write your report in a file named `REPORT.md`.
 
@@ -63,16 +63,16 @@ You can overwrite `README.md` with your report, or, if you prefer to leave `READ
 * You must submit your source files (including the three modified header files), your data file(s), the trace file, your output files, and your report.
 * The minimum set of files needed to compile and run all of your experiments and generate all your output files should be supplied.
 • If you are using CLion or cmake, please include your `CMakeLists.txt`.
-• Your report should be in Markdown format---you can simply replace this README file with your report.
+• Your report should be in Markdown format---you can simply replace this `README.md` file with your report.
 • You should include your data file so we can run your program! If your data file is large, you may zip it.
 
 ## Preparing plots
 
-Do not use C++ to produce plots, you can use whatever spreadsheet application or graphical programming language you prefer. You can use whatever type of plot is most readable to you (_e.g._, scatter plot, histogram, _etc._).
+Do not use C++ to produce plots. You can use whatever spreadsheet application or graphical programming language you prefer. You can use whatever type of plot is most readable to you (_e.g._, scatter plot, histogram, _etc._).
   * Your plots should have clear labels for both x and y axes.
   * Save your graph files in a separate "plots" folder.
   * You do not need to plot the depths of the integer type trees or the splay tree that finds each object five times in a row, but you can if you feel it helps you analyze the data.
-  * You can see how to include an image in your README.md by inspecting the Markdown source for the image above.
+  * You can see how to include an image in your report by inspecting the Markdown source for the image above.
   * Compare and contrast the plots and explain the differences based on what you know about the structure and behavior of the trees. Justify the time complexity of searching the trees based on the results.
 
 ## Code
