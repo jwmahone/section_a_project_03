@@ -9,9 +9,8 @@ For this project, you will:
 
 For example, you will search for objects in a tree and record how many objects you had to visit to complete the search. You will analyze your results from the different data structures.
 
-
 ## Setup
-You'll probably want to start with code from project 01 (with whatever modifications were suggested). If you haven't already done so, you will need to overload <, >, <=, =>, and == operators so that they work with objects of your custom class. Why? So we can compare and order objects.
+You'll probably want to start with code from project 01 (with whatever modifications were suggested). If you haven't already done so, you will need to overload `<`, `>`, `<=`, `=>`, and `==` operators so that they work with objects of your custom class. Why? So we can compare and order objects. (For tips on overloading these operators, see the original "Kepler" model, circulated with the starter code for project 1.)
 
 Since you have one unique key field for each record in your dataset, use this when comparing objects (and overloading operators). In this way, you'll ensure that all objects created from your data set can be inserted into trees of each type.
 
@@ -58,8 +57,10 @@ You must write a report about your project.
 * Compare and contrast the results of your experiments making reference to your plots and explain the differences based on what you know about the structure and behavior of the trees.
 * Determine and justify the complexity of searching each of the different the trees—BST, AVL, and splay—based on the results. Use Big-O notation where appropriate.
 
+You can overwrite `README.md` with your report, or, if you prefer to leave `README.md`, you can write your report in a file named `REPORT.md`.
+
 ## What to submit
-* You must submit your source files (including the three modified header files), your data file(s), the trace file, your output files, and your PDF report.
+* You must submit your source files (including the three modified header files), your data file(s), the trace file, your output files, and your report.
 * The minimum set of files needed to compile and run all of your experiments and generate all your output files should be supplied.
 • If you are using CLion or cmake, please include your `CMakeLists.txt`.
 • Your report should be in Markdown format---you can simply replace this README file with your report.
