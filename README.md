@@ -3,11 +3,12 @@
 ## Exploring binary search trees, AVL trees, and splay trees
 
 For this project, you will:
-* store integers and your data objects in a binary search tree, an AVL tree, and a splay tree,
+* store integers in a binary search tree, an AVL tree, and a splay tree,
+* store object of your custom time in a binary search tree, and AVL tree, and a splay tree,
 * search for objects in these trees and record the depth of the tree that is reached for each search, and
 * analyze your results and compare the performance of different trees.
 
-For example, you will search for objects in a tree and record how many objects you had to visit to complete the search. You will analyze your results from the different data structures.
+For example, you will search for objects in different tree and record how many objects you had to visit to complete the search. 
 
 ## Setup
 You'll probably want to start with code from project 01 (with whatever modifications were suggested). If you haven't already done so, you will need to overload `<`, `>`, `<=`, `=>`, and `==` operators so that they work with objects of your custom class. Why? So we can compare and order objects. (For tips on overloading these operators, see the original "Kepler" model, circulated with the starter code for project 1.)
