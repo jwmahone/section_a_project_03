@@ -8,7 +8,7 @@ For this project, you will:
 * search for objects in these trees and record the depth of the tree that is reached for each search, and
 * analyze your results and compare the performance of different trees.
 
-For example, you will search for objects in different tree and record how many objects you had to visit to complete the search. 
+For example, you will search for objects in different trees and record how many objects you had to visit to complete the search in each case. Your analysis will include comparison of results across different types of tree.
 
 ## Setup
 You'll probably want to start with code from project 01 (with whatever modifications were suggested). If you haven't already done so, you will need to overload `<`, `>`, `<=`, `=>`, and `==` operators so that they work with objects of your custom class. Why? So we can compare and order objects. (For tips on overloading these operators, see the original "Kepler" model, circulated with the starter code for project 1.)
